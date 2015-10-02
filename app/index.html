@@ -14,20 +14,106 @@
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 	<!--CSS-->
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/about-me.css">
 	<!--modernizer-->
 	<link href="bower/modernizer/modernizr.js">
+	<!--Шрифты-->
+	<link rel="stylesheet" type="text/css" href="fonts/fira.css">
 </head>
 <body>
 <!--[if it IE 7]>
 	<p class="browsehappy">Вы используете <strong>устаревший</strong> браузер.
 	Пожалуйста <a href="http://browsehappy.com/">обновите</a>его.</p>
 	<![endif]-->
-	<wraper class="wrap">
+	<div class="wraper">
 		<div class="main-content">
-			<p>Проверка лок.сервера</p>
+			<header class="page-header">
+				<div class="container-big">
+					<a class="header-logo-link">
+					<img src="image/logo.png" alt="logo" class="logo-img"><span class="header-logo-text">Сайт портфолио</span>
+					</a>
+					<ul class="socials">
+						<li class="socials-item">
+						<a href="http://vk.com/rt989" target="_blank" class="socials-link vk">vk.com</a>						
+						</li>
+						<li class="socials-item">
+							<a href="http://twitter.com" target="_blank" class="socials-link tw">twitter.com</a>
+						</li>
+						<li class="socials-item">
+								<a href="http://facebook.com/" target="_blank" class="socials-link fb">facebook.com</a>
+						</li>
+						<li class="socials-item">
+						<a href="http://github.com/rt777" target="_blank" class="socials-link gt">github.com</a>						
+						</li>						
+					</ul>
+				</div>
+			</header>
+			<div class="container">
+				<aside class="sidebar">
+					<nav class="navigation">
+							<ul class="navigation-list">
+								<li class="navigation-item current"><a href="" class="navigation-link">Обо мне</a></li>
+								<li class="navigation-item"><a href="/my-work.html" class="navigation-link">Мои работы</a></li>
+								<li class="navigation-item"><a href="/contact-me.html" class="navigation-link">Связаться со мной</a></li>
+							</ul>
+						</nav>
+						<address class="contacts"></address>	
+				</aside>
+				<!--Изменяемый контект-->
+				<div class="variable-content">
+					<div class="aboutbox">
+						<h2 class="aboutbox-header">Основная информация</h2>
+						<div class="aboutbox-body clearfix">
+							<div class="image-wrap">
+								<div class="avatar-box"><img src="image/myfoto.jpg" alt="Ринат Хабибуллин" class="avatar"></div>
+							</div>
+						</div>
+					</div>
+					<div class="worksheet-wrap">
+						<ul class="worksheet-list">
+							<li class="worksheet-item clearfix">
+								<div class="worksheet-what">Меня зовут</div>
+								<div class="worksheet-info">Ринат Хабибуллин</div>
+							</li>
+							<li class="worksheet-item clearfix">
+								<div class="worksheet-what">Мой возраст</div>
+								<div class="worksheet-info">35 лет</div>
+							</li>
+							<li class="worksheet-item clearfix">
+								<div class="worksheet-what">Мой город:</div>
+								<div class="worksheet-info">Казань</div>
+							</li>
+							<li class="worksheet-item clearfix">
+								<div class="worksheet-what">Моя специализация</div>
+								<div class="worksheet-info">FRONTEND разработчик</div>
+							</li>
+							<div class="worksheet-item clearfix">
+								<div class="worksheet-what">Ключевые навыки:</div>
+								<div class="worksheet-info skills">
+									<ul class="skill-list">
+									<li class="skill-item">html</li>
+									<li class="skill-item">css</li>
+									<li class="skill-item">javascript</li>
+									<li class="skill-item">gulp</li>
+									<li class="skill-item">git</li>
+									</ul>
+							
+								</div>
+					</div>
+				</ul>
+			</div>
+					<div class="aboutbox"></div>
+					<div class="aboutbox"></div>
+				</div>
+			</div>
 		</div>
-	</wraper>
-	<footer class="footer"></footer>
+	</div>
+	<footer class="page-footer">
+		<div class="container">
+			<div class="lock"><a href="/login.html" class="lock-inner">Войти</a></div>
+			<div class="copyright">&copy 2015, Это сайт Рината Хабибуллина, пожалуйста, не копируйте и не воруйте его</div>
+		</div>
+	</footer>
 	<script src="bower/jquery/dist/jquery.js"></script>
 	<script src="js/main.js"></script>
 	
