@@ -9,18 +9,18 @@ body {
 }
 
 /* footer bottom*/
-.wrapper{
+.obertka{
 	position: relative;
 	min-height: 100%;
 	min-width: 970px;
 	height: auto!important;
 }
-.wrapper:after {
+.obertka:after {
 	content: "";
 	height: 80px;
 	display: block;
 }
-.page-footer{
+.foot-page{
 	min-width: 970px;
 	height: 80px;
 	margin-top: -68px;	
@@ -51,7 +51,7 @@ body {
 	position:absolute;
 	left:-9999px
 }
-.page-header .socials{
+.page-header .soc{
 	position: absolute;
 	right: 0;
 	top: 36px;	
@@ -60,37 +60,37 @@ body {
 
 
 
-/* socials */
-.socials{
+/* soc */
+.soc{
 	margin: 0;
 	padding: 0;
 	min-width: 260px;
 }
-.socials .socials-item {
+.soc .soc-item {
   list-style: none;
   display: inline-block;
   height: 47px;
   width: 47px;
   margin-left: 19px;
 }
-.socials .socials-item:first-child {
+.soc .soc-item:first-child {
   margin-left: 0;
 }
-.socials .socials-link {
+.soc .soc-link {
 	display: block;
   height: 100%;
   width: 100%;
   text-indent: -9999px;
   background: url(../image/sprite.png) no-repeat;
 }
-.socials .socials-link.vk {background-position: 0px 0px; }
-.socials .socials-link.tw {background-position: 0px -141px; }
-.socials .socials-link.fb {background-position: -1px -47px; }
-.socials .socials-link.gt {background-position: -1px -94px; }
-.socials .socials-link.vk:hover {background-position: -47px 0px; }
-.socials .socials-link.tw:hover {background-position: -48px -141px; }
-.socials .socials-link.fb:hover {background-position: -48px -47px; }
-.socials .socials-link.gt:hover {background-position: -48px -94px; }
+.soc .soc-link.vk {background-position: 0px 0px; }
+.soc .soc-link.tw {background-position: 0px -141px; }
+.soc .soc-link.fb {background-position: -1px -47px; }
+.soc .soc-link.gt {background-position: -1px -94px; }
+.soc .soc-link.vk:hover {background-position: -47px 0px; }
+.soc .soc-link.tw:hover {background-position: -48px -141px; }
+.soc .soc-link.fb:hover {background-position: -48px -47px; }
+.soc .soc-link.gt:hover {background-position: -48px -94px; }
 
 
 /* left block */
@@ -100,26 +100,26 @@ body {
 }
 
 /* Navi */
-.navigation{
+.navig{
 	overflow: hidden;
 	background: #eff3f7;
 	border-radius: 4px;
 	margin-bottom: 26px;
 }
-.navigation .navigation-list {
+.navig .navig-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-.navigation .navigation-item {
+.navig .navig-item {
 	border-top: 2px solid #3ba8c0;
 	margin: 0 11px;
 }
-.navigation .navigation-item:first-child{
+.navig .navig-item:first-child{
 	border-top: none;
 }
 
-.navigation .navigation-item.current{	
+.navig .navig-item.current{	
 	background: #3ba8c0;
 	margin: 0;
 	border-bottom: none;
@@ -127,12 +127,12 @@ body {
 	margin-bottom: -2px; 
 }
 
-.navigation .navigation-item.current .navigation-link{
+.navig .navig-item.current .navig-link{
 	color: #f9fafb;
 	font-size: 22px;
 }
 
-.navigation .navigation-link {
+.navig .navig-link {
 	font-family: 'fira_sansbook';
 	display: block;
 	font-size: 20px;
@@ -141,7 +141,7 @@ body {
 	margin-left: 16px;
 	padding: 20px 0px;
 }
-.navigation .navigation-link:hover{
+.navig .navig-link:hover{
 	color: #3ba8c0;
 } 
 /*  Navi end  */
@@ -212,23 +212,23 @@ body {
 
 
 /* Footer */
-.page-footer{	
+.foot-page{	
 	background: #eff3f7 url(../image/line.png) top center no-repeat;
 	font-family: 'fira_sanslight';
   color: #4a545d;
 }
-.page-footer .container {
+.foot-page .container {
 	padding-top: 23px;
 	position: relative;  
 }
-.page-footer .copyright{
+.foot-page .copyright{
 	margin: 0 180px;
 	padding-top: 7px;
 	text-align: center;
 	font-size: 13px;
 }
 
-.page-footer .lock{
+.foot-page .lock{
 	position: absolute;
 	top: 26px;
 	left: 29px;	
@@ -280,12 +280,12 @@ body {
 /* clearfix end */
 
 /* all section */
-.aboutbox{
+.box{
 	background: #eff3f7;
 	border-radius: 4px;
 	margin-bottom: 21px;
 }
-.aboutbox .aboutbox-header{
+.box .box-header{
 	font-family: 'fira_sansbook';
 	font-size: 27px;
 	font-weight: normal;
@@ -295,20 +295,20 @@ body {
 	padding: 11px 21px;
 	display: inline-block;
 }
-.aboutbox-body{
+.box-body{
 	padding-bottom: 51px;	
 }
 /* all section end */
 
 
 
-/* avatar */
+/* my-foto */
 .image-wrap{	
 	float: left;
 	margin-left: 55px;
 	margin-top: 18px;		
 }
-.avatar-box{
+.my-foto-box{
 	width: 142px;
 	height: 142px;
 	border-radius: 50% 50%;
@@ -316,37 +316,37 @@ body {
 	border: 5px solid #3ba8c0;
 	margin-top: -4px;
 }
-.avatar{
+.my-foto{
 	width: 100%;
 }
-/* avatar end */
+/* my-foto end */
 
 
 /* profile text */
-.aboutbox .worksheet-wrap{
+.box .work-wrap{
 	float: right;
   width: 400px;
 }
-.worksheet-list{
+.work-list{
 	list-style: none;
 	padding: 0;
 	margin: -3px;
 	margin-left: -21px;
 }
-.worksheet-info{	
+.work-info{	
 	float: left;
 	margin-left: 25px;
 	max-width: 260px;
 }
-.worksheet-item{
+.work-item{
 	margin-bottom: 8px;
 }
-.worksheet-what {
+.work-what {
 	font-family: 'fira_sansmedium';
   font-size: 16px;
   float: left;
 }
-.worksheet-info{
+.work-info{
 	font-family: 'fira_sansbook';
   font-size: 15px;
   overflow: hidden;
@@ -356,14 +356,14 @@ body {
 
 
 
-/* skills */
-.worksheet-info .skills-list{	
+/* работа, образование */
+.work-info .naviki-list{	
 	width: 224px;
 	padding: 0;
 	padding-top: 7px;
 	list-style: none;
 }
-.skills-list .skill-item{
+.naviki-list .navik-item{
 	display: inline-block;
 	font-family: 'ProximaNovaCondensedSemibold';
   background: #3ba8c0; /* Old browsers */
@@ -384,35 +384,35 @@ body {
 	text-align: center;
 }
 
-.aboutbox .aboutbox-list{
+.box .box-list{
 	list-style: none;
 	padding: 0 0 0 50px;
 	margin: 0;
 }
-.aboutbox .aboutbox-item{
+.box .box-item{
 	padding: 0 0 0 76px;
 	margin-bottom: 20px;
 }
-.aboutbox .aboutbox-item:last-child{
+.box .box-item:last-child{
 	margin-bottom: 0;
 }
-.aboutbox-item .where{
+.box-item .where{
 	font-family: 'fira_sansbook';
   font-size: 16px;
 }
-.aboutbox-item .period{
+.box-item .period{
 	font-family: 'fira_sanslight';
   font-size: 15px;
   line-height: 1;
 }
-.aboutbox-item.icon-work{
+.box-item.icon-work{
 	background: url(../image/papka.png) 9px center no-repeat;
 }
 
-.aboutbox-item.icon-college{
+.box-item.icon-college{
 	background: url(../image/shapka.png) 9px center no-repeat;
 }
-.aboutbox-item.icon-course{
+.box-item.icon-course{
 	background: url(../image/dok.png) 17px center no-repeat;
 }
-/* skills end*/
+/* naviki end*/
