@@ -36,6 +36,13 @@
     background: #edf8fc;
 
 }
+/*.site-li:hover {
+	
+	/*background: url(../image/my-work-6.png) no-repeat;*/
+	/*background-size: cover;
+	
+
+} */
 
 .wrapper_1 {
 	position: absolute;
@@ -47,8 +54,6 @@
 	height: 125px;	
 	/*display: none;*/
 }
-
-
 
 .zagolovok{
 	position: absolute;
