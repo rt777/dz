@@ -6,7 +6,8 @@
 .sites {
 	list-style: none;
 	padding: 0px;
-	margin: 0px;
+	margin: -6px;
+	margin-left: 2px;
 }
 
 .sites .site-li {
@@ -118,7 +119,7 @@
 }
 
 .site-li {
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	width: 212px;
 } 
 

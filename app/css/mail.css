@@ -1,0 +1,182 @@
+.link_backgraund {
+     background-color:#48CBE8;
+     border-bottom: 17px solid #51DAF8;
+     height: 117px;
+     border-radius: 5px 5px 0px 0px;
+}
+
+.table_of_contents_link {
+  line-height: 125px;
+  text-align: center;
+  margin: 0px;
+  color:#F9FAFB;
+  font-family: 'firasansbok';
+  font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.form {
+  width: 400px;
+  margin: 50px auto;
+  padding-bottom: 200px;
+
+}
+
+.name {
+  color: #A9AEB9;
+  margin: -1px;
+  padding-bottom: 1px;
+}
+
+.caption {
+  color: #A9AEB9;
+  margin: 0px;
+  margin-bottom: 8px
+}
+
+.input {
+    width: 180px;
+    height: 35px;
+    font-family: 'fira_sanslight';
+    font-size: 14px;
+    padding-left: 11px;
+    margin-bottom: -4px;
+    border-radius: 3px 3px;
+    border: 1px solid #48cbe8;
+    color: #A9AEB9;
+}
+
+.form .label {
+  display: inline-block;
+}
+
+.you_mail {
+  margin-left: 9px 
+}
+
+.your_message {
+  width: 400px;
+}
+
+.textarea {
+    width: 380px;
+    height: 162px;
+    border: 1px solid #48cbe8;
+    border-radius: 3px 3px;
+    font-family: 'fira_sanslight';
+    font-size: 14px;
+    padding: 9px;
+    resize: none;
+    color: #A9AEB9;
+    margin-bottom: 5px;
+}
+
+.message {
+  /*margin:0px;*/
+  color: #A9AEB9;
+  margin: 10px;
+  padding-bottom: 0px;
+  padding-bottom: -4px;
+}
+
+.submit_one {
+    float: left;
+    padding: 2px;
+    width: 140px;
+    border: none;
+    font-family: 'fira_sansbook';
+    font-size: 19px;
+    color: white;
+    background: url(../image/spritebox-sprite_2.png) no-repeat;
+    background-position: -16px -94px;
+    height: 33px;
+    width: 139px
+}
+
+.submit_one:hover {
+   background-position: -16px -49px;
+     height: 33px;
+     width: 139px
+}
+
+.submit_one:active {
+  background-position: -16px -4px;
+    height: 33px;
+    width: 139px 
+}
+
+.submit_2 {
+  float: right;
+    padding: 2px;
+    width: 140px;
+    border: none;
+    font-family: 'fira_sansbook';
+    font-size: 19px;
+    color: white;
+    background: url(../image/spritebox-sprite_123.png) no-repeat;
+    background-position: -12px -49px;
+  height: 33px;
+  width: 141px
+}
+
+.submit_2:hover {
+   background-position: -12px -98px;
+  height: 33px;
+  width: 139px
+}
+
+.submit_2:active {
+  background-position: -12px -4px;
+  height: 33px;
+  width: 141px
+}
+
+.captcha-img {
+  float: left;
+  padding: 8px;
+  width: 171px;
+  height: 61px;
+  border: 1px solid #48cbe8;
+  border-radius: 5px;
+  margin-bottom: -5px;
+  margin-top: -8px;
+}
+
+.captcha-input {
+    margin: 13px -1px 0px 1px;
+    width: 181px;
+    height: 28px;
+    color: #48cbe8;
+    font-size: 13px;
+    border: 1px solid #48cbe8;
+    border-radius: 3px 3px;
+    font-family: 'fira_sanslight';
+    float: right;
+    padding-left: 8px;
+}
+
+.captcha-input::-webkit-input-placeholder {
+  color: #48cbe8;
+}
+
+.input::-webkit-input-placeholder {
+  color: #48cbe8;
+}
+
+.textarea::-webkit-input-placeholder {
+  color: #48cbe8;
+}
+
+input[type="submit"]:focus { outline: none; }
+.korr {
+  margin-top: 25px;
+}
+.korr2 {
+  margin-left: 2px;
+}
+.box-mail{
+  background: #eff3f7;
+  border-radius: 4px;
+  margin-bottom: -24px;
+}

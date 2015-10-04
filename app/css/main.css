@@ -186,6 +186,11 @@ body {
     overflow: hidden;
     width: 150px;
 }
+.my-adress a:hover{
+	/*display: block;*/
+	text-decoration: underline;
+	
+}
 
 .my-adress .adress-point-mail{
 	background: url(../image/mail.png) 42px no-repeat;
